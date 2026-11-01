@@ -1,0 +1,7 @@
+baseURL = 'https://mitchydev.github.io/portfolio/'
+locale = 'en-us'
+title = 'CSC 324 Portfolio'
+theme = 'hugo-book'
+
+[params]
+  BookSection = '*'
