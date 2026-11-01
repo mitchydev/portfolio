@@ -1,0 +1,10 @@
+/* Grinnell red accent (PMS 485). Shadows the theme's empty styles/custom.css. */
+:root[data-theme="light"] {
+  --color-link: #da291c;
+  --color-visited-link: #a01f16;
+}
+
+/* Red bar on blockquotes (the course prompts). */
+:root[data-theme="light"] .markdown blockquote::before {
+  background: var(--color-link);
+}
