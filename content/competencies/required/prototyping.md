@@ -1,7 +1,7 @@
 +++
 draft = false
 title = 'Prototyping'
-status = 'pending'
+status = 'approved'
 +++
 
 > Identify relevant artifacts from the human-centered design process that address the following points.

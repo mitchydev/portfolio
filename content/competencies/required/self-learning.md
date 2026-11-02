@@ -1,7 +1,7 @@
 +++
 draft = false
 title = 'Self Learning'
-status = 'pending'
+status = 'approved'
 +++
 
 > Identify a portion of your tech tutorial that you developed.
