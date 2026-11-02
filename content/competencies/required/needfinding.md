@@ -19,6 +19,8 @@ It is in our dox folder of our repo.
 
 My contribution was an interview with a student for needfinding, a persona titled "Busy and Booked CS/ECN Double Major Warrior," and brainstorming using the SCAMPER method.
 
+{{< pdf-preview pdf="needfinding/needfindingMP.pdf" >}}
+
 ### Generative AI use
 
 No AI was used for Needfinding.

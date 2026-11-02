@@ -14,6 +14,8 @@ status = 'pending'
 
 ### Location
 
+In the repo under dox/prototyping.
+
 ### My contributions
 
 My contributions were digital mockups done through hand drawings and slideshows. For example, to simulate a button being pressed on a drawing, another image would be on the next slide to show what would happen because you pressed that button.
