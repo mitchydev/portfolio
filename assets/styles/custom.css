@@ -8,3 +8,25 @@
 :root[data-theme="light"] .markdown blockquote::before {
   background: var(--color-link);
 }
+
+/* PDF previews: an image that links to the full PDF (see the pdf-preview shortcode). */
+.markdown .pdf-preview {
+  margin: var(--space-16) 0;
+  padding: var(--space-8);
+  border: var(--space-1) solid var(--gray-200);
+  border-radius: var(--border-radius);
+  background: var(--gray-100);
+}
+
+.markdown .pdf-preview img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius);
+  background: #fff;
+}
+
+.markdown .pdf-preview figcaption {
+  margin-top: var(--space-8);
+  font-size: var(--font-size-smaller);
+}

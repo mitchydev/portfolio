@@ -1,0 +1,11 @@
+{{- /*
+  A PDF shown as a preview image that links to the full file.
+  Params: pdf (path under static/), img (preview image path under static/), alt
+*/ -}}
+{{- $pdf := .Get "pdf" -}}
+<figure class="pdf-preview">
+  <a href="{{ $pdf | relURL }}" target="_blank" rel="noopener">
+    <img src="{{ .Get "img" | relURL }}" alt="{{ .Get "alt" }}" loading="lazy">
+  </a>
+  <figcaption><a href="{{ $pdf | relURL }}" target="_blank" rel="noopener">{{ path.Base $pdf }}</a></figcaption>
+</figure>
