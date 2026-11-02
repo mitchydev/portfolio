@@ -24,7 +24,7 @@ To make the backend work, I worked with Claude Code to write 34 automated tests,
 
 I used Claude Code in conjunction with my learning.
 
-### How this demonstrates the competency
+### Competency Demonstration
 
 As mentioned, this was coded in Flask. It is a free Python tool for building the behind-the-scenes part of a web app. It receives requests from the page, such as “show me rooms in this building,” runs the right Python function, and sends the answer back. I chose Flask because it is small enough to understand quickly, flexible, and it works with my team’s existing database code very well. Its downsides are that it provides very little on its own, so we wrote our own checks for valid input and our own error messages. It also has no built-in login, so anyone who can reach the server can change a room’s status, and its built-in server is meant for development, not for a public website.
 

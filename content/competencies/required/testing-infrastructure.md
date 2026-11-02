@@ -17,4 +17,4 @@ status = 'not-done'
 
 ### Generative AI use
 
-### How this demonstrates the competency
+### Competency Demonstration
