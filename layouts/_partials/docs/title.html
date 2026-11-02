@@ -3,6 +3,7 @@
   emoji prefix taken from the page's `status` front matter:
     not-done -> ❌   pending -> 🟡   approved -> ✅
   Sections whose pages carry a status also get "(N out of M)", N = approved.
+  M is the section's `statusTarget` front matter if set, else its page count.
   Accepts Page as context
 */}}
 {{ $title := "" }}
@@ -31,7 +32,8 @@
   {{ $tracked := where .RegularPages "Params.status" "in" (slice "not-done" "pending" "approved") }}
   {{ if $tracked }}
     {{ $approved := len (where $tracked "Params.status" "approved") }}
-    {{ $title = printf "%s (%d out of %d)" $title $approved (len $tracked) }}
+    {{ $total := .Params.statustarget | default (len $tracked) }}
+    {{ $title = printf "%s (%d out of %d)" $title $approved $total }}
   {{ end }}
 {{ end }}
 
