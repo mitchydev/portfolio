@@ -1,6 +1,7 @@
 +++
 draft = false
 title = 'Self Learning'
+status = 'not-done'
 +++
 
 > Identify a portion of your tech tutorial that you developed.

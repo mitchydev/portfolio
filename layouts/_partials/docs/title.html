@@ -1,0 +1,29 @@
+{{/*
+  Overrides the theme's docs/title partial. Same title logic, plus a status
+  emoji prefix taken from the page's `status` front matter:
+    not-done -> ❌   pending -> 🟡   approved -> ✅
+  Accepts Page as context
+*/}}
+{{ $title := "" }}
+
+{{ if .LinkTitle }}
+  {{ $title = .LinkTitle }}
+{{ else if .Title }}
+  {{ $title = .Title }}
+{{ else if and .IsSection .File }}
+  {{ $title = path.Base .File.Dir | humanize | title }}
+{{ else if and .IsPage .File }}
+  {{ $title = .File.BaseFileName | humanize | title }}
+{{ else if .IsHome }}
+  {{ $title = .Site.Title }}
+{{ end }}
+
+{{ with .Params.status }}
+  {{ $emoji := index (dict "not-done" "❌" "pending" "🟡" "approved" "✅") . }}
+  {{ if not $emoji }}
+    {{ errorf "%s: unknown status %q, expected not-done, pending or approved" $.Path . }}
+  {{ end }}
+  {{ $title = printf "%s %s" $emoji $title }}
+{{ end }}
+
+{{ return $title }}

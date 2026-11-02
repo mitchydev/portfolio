@@ -1,6 +1,7 @@
 +++
 draft = false
 title = 'Testing Infrastructure'
+status = 'not-done'
 +++
 
 > Identify relevant components from your development infrastructure (IDE, build, etc.) that you use to test your project.

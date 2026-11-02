@@ -1,6 +1,7 @@
 +++
 draft = false
 title = 'Domain Specific Architecture'
+status = 'not-done'
 +++
 
 ## Sample 1

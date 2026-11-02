@@ -1,6 +1,7 @@
 +++
 draft = false
 title = 'Needfinding'
+status = 'not-done'
 +++
 
 > Identify relevant artifacts from the human-centered design process that address the following points.

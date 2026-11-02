@@ -1,6 +1,7 @@
 +++
 draft = false
 title = 'Infrastructure'
+status = 'not-done'
 +++
 
 > - What development tools did you use through process to help write code and automate the build/deployment process?

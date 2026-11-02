@@ -1,6 +1,7 @@
 +++
 draft = false
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
+status = 'not-done'
 +++
 
 ## Sample 1

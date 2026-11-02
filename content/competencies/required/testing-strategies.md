@@ -1,6 +1,7 @@
 +++
 draft = false
 title = 'Testing Strategies'
+status = 'not-done'
 +++
 
 > Identify a component of your project that you were responsible for testing.
