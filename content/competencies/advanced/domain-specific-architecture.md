@@ -4,7 +4,7 @@ title = 'Domain Specific Architecture'
 status = 'not-done'
 +++
 
-## Sample 1
+## Domain Specific Architecture Sample
 
 ### Location
 

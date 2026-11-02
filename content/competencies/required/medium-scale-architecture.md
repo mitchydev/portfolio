@@ -10,7 +10,7 @@ status = 'not-done'
 > - What components result from this pattern in your program?
 > - What technologies and/or libraries make-up each of the components?
 
-## Sample 1
+## Medium Scale Architecture Sample
 
 ### Location
 

@@ -8,7 +8,7 @@ status = 'not-done'
 > - In your estimation, how well did your group follow through on using these processes throughout the semester?
 > - What, if anything, got in the way of integrating these process into your workflow?
 
-## Sample 1
+## Process Sample
 
 ### Location
 

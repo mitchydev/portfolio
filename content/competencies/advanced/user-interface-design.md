@@ -4,7 +4,7 @@ title = 'User Interface Design'
 status = 'not-done'
 +++
 
-## Sample 1
+## User Interface Design Sample
 
 ### Location
 

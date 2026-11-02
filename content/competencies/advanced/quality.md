@@ -4,7 +4,7 @@ title = 'Quality'
 status = 'not-done'
 +++
 
-## Sample 1
+## Quality Sample
 
 ### Location
 

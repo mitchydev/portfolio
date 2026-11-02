@@ -10,7 +10,7 @@ status = 'not-done'
 > - How did you design your prototype(s) and subsequent user studies to address these questions?
 > - What answers to your design questions did your efforts unveil?
 
-## Sample 1
+## Prototyping Sample
 
 ### Location
 

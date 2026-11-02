@@ -10,7 +10,7 @@ status = 'not-done'
 > - What were the results of this user study?
 > - What were the main points of future development that you took away from this activity?
 
-## Sample 1
+## Evaluation Sample
 
 ### Location
 

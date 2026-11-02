@@ -9,7 +9,7 @@ status = 'not-done'
 > - What techniques did you use to discover solutions to users’ needs?
 > - From ideation, what are the must have features/components/etc. of your project? Why are they must haves?
 
-## Sample 1
+## Ideation Sample
 
 ### Location
 

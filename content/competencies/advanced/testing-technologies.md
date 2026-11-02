@@ -4,7 +4,7 @@ title = 'Testing Technologies'
 status = 'not-done'
 +++
 
-## Sample 1
+## Testing Technologies Sample
 
 ### Location
 

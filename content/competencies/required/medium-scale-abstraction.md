@@ -10,7 +10,7 @@ status = 'not-done'
 > - How does it mechanical achieve abstraction?
 > - What purpose does this abstraction serve in your larger program?
 
-## Sample 1
+## Medium Scale Abstraction Sample
 
 ### Location
 

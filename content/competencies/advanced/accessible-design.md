@@ -4,7 +4,7 @@ title = 'Accessible Design'
 status = 'not-done'
 +++
 
-## Sample 1
+## Accessible Design Sample
 
 ### Location
 

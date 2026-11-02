@@ -4,7 +4,7 @@ title = 'Security'
 status = 'not-done'
 +++
 
-## Sample 1
+## Security Sample
 
 ### Location
 

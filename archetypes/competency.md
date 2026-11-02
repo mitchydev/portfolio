@@ -4,7 +4,7 @@ title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 status = 'not-done'
 +++
 
-## Sample 1
+## {{ replace .File.ContentBaseName "-" " " | title }} Sample
 
 ### Location
 

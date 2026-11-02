@@ -10,7 +10,7 @@ status = 'not-done'
 > - Describe the difficulties that necessitated communication with your peers in each instance.
 > - Did you encounter any difficulties in collaboration with team during these instances? If so, how did you resolve those difficulties?
 
-## Sample 1
+## Collaboration Sample
 
 ### Location
 

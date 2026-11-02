@@ -10,7 +10,7 @@ status = 'not-done'
 > - What kinds of tests are they?
 > - For code that is not covered by tests, why did you not cover them?
 
-## Sample 1
+## Testing Strategies Sample
 
 ### Location
 
