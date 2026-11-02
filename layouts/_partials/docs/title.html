@@ -2,6 +2,7 @@
   Overrides the theme's docs/title partial. Same title logic, plus a status
   emoji prefix taken from the page's `status` front matter:
     not-done -> ❌   pending -> 🟡   approved -> ✅
+  Sections whose pages carry a status also get "(N out of M)", N = approved.
   Accepts Page as context
 */}}
 {{ $title := "" }}
@@ -24,6 +25,14 @@
     {{ errorf "%s: unknown status %q, expected not-done, pending or approved" $.Path . }}
   {{ end }}
   {{ $title = printf "%s %s" $emoji $title }}
+{{ end }}
+
+{{ if .IsSection }}
+  {{ $tracked := where .RegularPages "Params.status" "in" (slice "not-done" "pending" "approved") }}
+  {{ if $tracked }}
+    {{ $approved := len (where $tracked "Params.status" "approved") }}
+    {{ $title = printf "%s (%d out of %d)" $title $approved (len $tracked) }}
+  {{ end }}
 {{ end }}
 
 {{ return $title }}
