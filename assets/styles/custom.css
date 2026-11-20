@@ -30,3 +30,18 @@
   margin-top: var(--space-8);
   font-size: var(--font-size-smaller);
 }
+
+/* The status key on the home page (see the status-key shortcode). */
+.markdown .status-key {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.markdown .status-key li {
+  margin: var(--space-4) 0;
+}
+
+.markdown .status-key-icon {
+  display: inline-block;
+  margin-inline-end: var(--space-8);
+}

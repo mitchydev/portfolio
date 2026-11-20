@@ -1,7 +1,7 @@
 +++
 draft = false
 title = 'Quality'
-status = 'not-done'
+status = 'team'
 +++
 
 ## Quality Sample

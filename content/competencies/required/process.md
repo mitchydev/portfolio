@@ -1,7 +1,7 @@
 +++
 draft = false
 title = 'Process'
-status = 'not-done'
+status = 'next'
 +++
 
 > - What software engineering practices did your group employ to manage, distribute, and execute on their work?

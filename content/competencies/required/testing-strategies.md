@@ -1,7 +1,7 @@
 +++
 draft = false
 title = 'Testing Strategies'
-status = 'pending'
+status = 'ongoing'
 +++
 
 > Identify a component of your project that you were responsible for testing.

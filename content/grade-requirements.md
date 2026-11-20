@@ -26,12 +26,10 @@ Competency mastery is measured on a Satisfactory/Non-satisfactory basis on wheth
 ## Advanced Competencies by Role
 
 - Development
-  - [Domain-specific architecture]({{< relref "competencies/advanced/domain-specific-architecture" >}})
   - [Security]({{< relref "competencies/advanced/security" >}})
 - Verification
   - [Testing technologies]({{< relref "competencies/advanced/testing-technologies" >}})
 - Design
-  - [User interface design]({{< relref "competencies/advanced/user-interface-design" >}})
   - [Accessible design]({{< relref "competencies/advanced/accessible-design" >}})
 - Engineering
   - [Quality]({{< relref "competencies/advanced/quality" >}})

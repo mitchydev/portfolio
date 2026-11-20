@@ -1,7 +1,7 @@
 +++
 draft = false
 title = 'Medium Scale Architecture'
-status = 'pending'
+status = 'approved'
 +++
 
 > Choose one of the components of your project that you (co-)designed according to its architecture, e.g., front-end versus back-end.

@@ -1,0 +1,6 @@
+{{- /* The key to the status icons, built from data/statuses.toml. */ -}}
+<ul class="status-key">
+  {{- range hugo.Data.statuses.status }}
+  <li><span class="status-key-icon">{{ .emoji }}</span> {{ .label }}</li>
+  {{- end }}
+</ul>

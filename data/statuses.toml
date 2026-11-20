@@ -1,0 +1,38 @@
+# The page statuses. A page's `status` front matter picks one of these keys.
+# The emoji shows next to the page's title, and the key on the home page is
+# built from this list, in this order.
+
+[[status]]
+key = "not-done"
+emoji = "❌"
+label = "Not done"
+
+[[status]]
+key = "next"
+emoji = "⏭️"
+label = "Next up"
+
+[[status]]
+key = "ongoing"
+emoji = "⏰"
+label = "Ongoing all semester"
+
+[[status]]
+key = "team"
+emoji = "🧑‍🧑‍🧒‍🧒"
+label = "Team"
+
+[[status]]
+key = "pending"
+emoji = "🟡"
+label = "Pending approval"
+
+[[status]]
+key = "approved"
+emoji = "✅"
+label = "Approved"
+
+[[status]]
+key = "needs-revision"
+emoji = "‼️"
+label = "Needs revision"

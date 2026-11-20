@@ -1,7 +1,7 @@
 +++
 draft = false
 title = 'Medium Scale Abstraction'
-status = 'pending'
+status = 'needs-revision'
 +++
 
 > Choose a part of the project that you (co-)wrote that employs medium-scale abstraction.

@@ -1,11 +1,17 @@
 {{/*
   Overrides the theme's docs/title partial. Same title logic, plus a status
-  emoji prefix taken from the page's `status` front matter:
-    not-done -> ❌   pending -> 🟡   approved -> ✅
+  emoji prefix taken from the page's `status` front matter. The statuses (key,
+  emoji and label) are listed in data/statuses.toml.
   Sections whose pages carry a status also get "(N out of M)", N = approved.
   M is the section's `statusTarget` front matter if set, else its page count.
   Accepts Page as context
 */}}
+{{ $statuses := hugo.Data.statuses.status }}
+{{ $keys := slice }}
+{{ range $statuses }}
+  {{ $keys = $keys | append .key }}
+{{ end }}
+
 {{ $title := "" }}
 
 {{ if .LinkTitle }}
@@ -21,15 +27,15 @@
 {{ end }}
 
 {{ with .Params.status }}
-  {{ $emoji := index (dict "not-done" "❌" "pending" "🟡" "approved" "✅") . }}
-  {{ if not $emoji }}
-    {{ errorf "%s: unknown status %q, expected not-done, pending or approved" $.Path . }}
+  {{ $status := where $statuses "key" . }}
+  {{ if not $status }}
+    {{ errorf "%s: unknown status %q, expected one of: %s" $.Path . (delimit $keys ", ") }}
   {{ end }}
-  {{ $title = printf "%s %s" $emoji $title }}
+  {{ $title = printf "%s %s" (index $status 0).emoji $title }}
 {{ end }}
 
 {{ if .IsSection }}
-  {{ $tracked := where .RegularPages "Params.status" "in" (slice "not-done" "pending" "approved") }}
+  {{ $tracked := where .RegularPages "Params.status" "in" $keys }}
   {{ if $tracked }}
     {{ $approved := len (where $tracked "Params.status" "approved") }}
     {{ $total := .Params.statustarget | default (len $tracked) }}
