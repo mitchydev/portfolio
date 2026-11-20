@@ -1,8 +1,9 @@
 name: Deploy Hugo site to GitHub Pages
 
+# Manual only: run it from the repo's Actions tab. Publishing needs GitHub Pages
+# turned on first (Settings -> Pages -> Source: GitHub Actions). To deploy on every
+# push again, add back:  push: {branches: [main]}
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 # Least privilege: read the repo, and let deploy-pages publish via OIDC.
